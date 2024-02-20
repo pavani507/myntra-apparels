@@ -1,0 +1,275 @@
+
+
+.productDetailsWrapper {
+  padding-left: 1%;
+  margin-bottom: 3rem;
+
+  & .detailContainer {
+    display: flex;
+    
+
+    & .imageWrapper {
+     
+      .productsImage {
+        padding: 2rem 0 0 0;
+        justify-content: center;
+
+          img{
+         margin: 1%;
+         width: 45%;
+          }
+        
+      }
+   }
+
+    & .detailsWrapper {
+      .price {
+        font-size: 1.4rem;
+        font-weight: 600;
+
+        .oldPrice{
+          text-decoration: line-through;
+          color:lightgrey;
+         }
+        .discount{
+          color:green;
+        }   
+      }
+
+      .productName{
+        font-size: 1.5rem;
+        font-weight: 500;
+      }
+
+      .review{
+        display: flex;
+        width: 7%;
+
+        span{ 
+        padding: 1px 2px;
+        display: flex;
+        }
+
+        hr{
+          height: 10px;
+        }
+      }
+
+      .offers{
+      display: flex;
+      box-shadow: 1px 1px 1px 1px blue;
+      border-radius: 4px;
+      margin-left: 0.4rem;
+      padding: 0.6rem;
+
+      .description{
+       padding-left: 0.3rem 
+      }
+      .offerTitle{
+      color: blue;
+      }
+      .offersSubTitle{
+      font-size: 14px;
+      }
+    }
+
+    .colorBridge{
+      display: flex;
+      padding: 0.2rem;
+    
+    }
+
+    .sizeHeading{
+      display: flex;
+
+      span{
+        font-size: 13px;
+        color:gray
+      }
+    }
+
+    .heading2{
+      margin-left: 20rem;
+      color: purple;
+    }
+
+    .size{
+      display: flex;
+      flex-direction: column;
+
+     
+      .sizeSpan{
+        padding: 2px 14px;
+        border-radius: 4px;
+        margin: 0.3rem;
+        
+        }
+
+        .sizeNormal{
+          border: 1px solid darkgrey;
+         
+        }
+        .sizeActive{
+          border: 1px solid red;
+         
+        }
+        .sizeOutofstock{
+          color: lightgray;
+          border: 1px solid #fff;
+        }
+
+        .leftItemSpan{
+          color: red;
+          font-size: 13px;
+          text-align: center;
+        }
+        
+    }
+
+    .addToCart{
+    background-color: #37bd80;
+    border-radius: 4px;
+    padding: 0.6rem 8rem;
+    border: 1px solid #37bd80;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    text-align: center;
+    margin-top: 1rem;
+    }
+
+     .contactDetails {
+     
+     
+     
+      .sendLink {
+       
+        .linkSend {
+          display: grid;
+          grid-template-columns: 1fr 10rem;
+          width: 83%;
+          .button {
+            height: 2.5rem;
+            color: lightskyblue;
+            display: grid;
+            align-items: center;
+            background: #fff;
+            border-left: 1px solid lightskyblue;
+            text-align: center;
+            border-radius: 0px 4px 4px 0px;
+            width: 80px;
+            font-size: 13px;
+            box-shadow: 1px 1px 1px 1px lightskyblue;
+          }
+          input {
+            background: #fff;
+            border: 1px solid #fff;
+            border-radius: 4px 0px 0px 4px;
+            color: #fff;
+            box-shadow: 1px 1px 1px 1px lightskyblue;
+          }
+          ::placeholder {
+            color: #666666;
+            font-size: 0.6rem;
+          }
+        }
+      }
+     }
+
+   
+
+      .productInfo{
+      display: flex;
+      border-radius: 4px;
+      margin-left: 0.4rem;
+      padding: 0.6rem;
+  
+      .description{
+        padding-left: 0.3rem 
+      }
+      .offerTitle{
+        color: #000;
+      }
+      .offersSubTitle{
+        color:gray;
+        font-size: 14px; 
+
+      }
+      }
+   
+  
+  .reviewAndRatings{
+    display: flex;
+    margin-left: 2rem;
+    
+
+    .ratinBar{
+      display: flex;
+      flex-direction: column;
+      margin-left: 8rem;
+
+      .ratingBarContainer {
+        width: 143px;
+        height: 4px;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin: 7px;
+      }
+      
+      .ratingBar {
+        height: 100%; 
+        
+      }
+
+      span{
+        
+        font-size: 10px;
+      }
+    }
+  }
+  
+  
+
+  .productDescription{
+    font-size: 15px;
+    color: gray;
+
+    span{
+      color:#000
+    }
+  }
+  
+  
+     }
+  }
+
+
+}
+
+
+
+@media (max-width: 1300px) {
+  .productDetailsWrapper {
+   
+    margin-left: 2rem;
+    & .detailContainer {
+      display: flex;
+      flex-direction: column;
+      margin-left: 1rem;
+    
+    }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,60 @@
+
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    font-size: 12px;
+    box-shadow: 0 0px 0px 1px lightgrey;
+    
+    .logo{
+        width:7%
+    }
+
+    
+    .nav{
+        margin-top: 1.3rem;
+        font-weight: 600;    
+    }
+
+    .nav ul li {
+        display: inline;
+        margin-right: 4rem;
+    }
+
+    input{
+        width: 13rem;
+        padding: 0.6rem 1.2rem;
+        border-radius: 4px;
+        font-size: 15px;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 7%;
+        height: 18px;
+        border: 1px solid lightgrey;
+        box-shadow: 1px 1px 1px 1px lightgrey;
+    }
+    
+    .cartLogos{
+        display: inline;
+        margin:2rem;
+        margin-left: auto;
+
+       img{
+            width: 1.3rem;
+            padding: 0rem 0.4rem;
+        }
+        .cartSpan{
+            position: relative;
+            bottom: 12px;
+            right: 15px;
+            padding: 0px 3px;
+            background-color: purple;
+            color: #fff;
+            font-size: 9px;
+        } 
+    }
+
+}
+
+

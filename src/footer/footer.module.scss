@@ -1,0 +1,166 @@
+@import "../styles/variable.scss";
+
+.wrapper {
+  background: #216641;
+  margin-top: 2rem;
+
+     .footerHeadingDiv{
+       display: flex;
+
+     }
+     .footerHeading{
+      width: 19%;
+      padding: 3rem;
+      color: #fff;
+     }
+
+     .sendLink {
+      margin-left: 24rem;
+      margin-top: 4rem;
+      width: 40%;
+      .linkSend {
+        display: grid;
+        grid-template-columns: 1fr 10rem;
+        background-color: #fff;
+        padding: 0.2rem;
+        border-radius: 4px;
+        .button {
+          height: 3rem;
+          color: #fff;
+          display: grid;
+          align-items: center;
+          background: purple;
+          text-align: center;
+          border-radius: 4px;
+          font-size: 0.8rem;
+          
+        }
+        input {
+          background: $white;
+          border: 1px solid #fff;
+          border-radius: 4px;
+          color: $white;
+          font-size: 1rem;
+        }
+        ::placeholder {
+          color: gray;
+          font-size: 0.8rem;
+        }
+      }
+    }
+
+
+    .socialMedia{
+      display: grid;
+      grid-template-columns: repeat(4, 3fr);
+     
+      
+
+      span{
+        border: 1px solid #000;
+        padding: 1rem;
+       text-align: center;
+       font-weight: 600;
+      }
+      
+    }
+
+
+  
+   
+
+   
+  .sections {
+      display: flex;
+      border-bottom: 1px solid grey;
+
+      .sectionData {
+        margin: 0rem 6rem ;
+
+        h6 {
+          font-weight: 600;
+          letter-spacing: 4.2px;
+           font-size: 1rem;
+        }
+      
+       
+    }
+   }
+  
+
+   .rights{
+    font-size: 0.8rem;
+    padding: 1rem;
+    color: grey;
+   }
+
+ 
+}
+
+@media (max-width: 1300px) {
+  .wrapper {
+   
+    .footerHeadingDiv{
+      display: flex;
+      flex-direction: column;
+
+    }
+    .footerHeading{
+      width: 100%;
+      padding: 3rem;
+      color: #fff;
+     }
+
+     .sendLink {
+      margin: 2rem 12rem;
+      width: 59%;
+    
+     
+      .linkSend {
+        display: grid;
+        grid-template-columns: 1fr 4rem;
+        background-color: #fff;
+        border-radius: 4px;
+        .button {
+          height: 2rem;
+          color: #fff;
+          display: grid;
+          align-items: center;
+          background: purple;
+          text-align: center;
+          border-radius: 4px;
+          font-size: 0.4rem;
+          
+        }
+        input {
+          background: $white;
+          border: 1px solid #fff;
+          border-radius: 4px;
+          color: $white;
+          
+        }
+        ::placeholder {
+          color: gray;
+          font-size: 0.8rem;
+        }
+      }
+    }
+
+    .sections {
+      display: flex;
+      border-bottom: 1px solid grey;
+
+      .sectionData {
+        margin: 0rem 2rem ;
+
+        h6 {
+          font-weight: 600;
+          letter-spacing: 4.2px;
+           font-size: 1rem;
+        }
+      
+       
+    }
+   }
+}
+}

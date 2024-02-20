@@ -2,9 +2,7 @@ import React  from "react";
 import styles from "./about.module.scss";
 
 
-const details = ({
-
-}) => {
+const About = ({}) => {
   
   return (
     <div className={styles.productDetailsWrapper}>
@@ -209,4 +207,4 @@ const details = ({
   );
 };
 
-export default details;
+export default About;
